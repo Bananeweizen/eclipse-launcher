@@ -1,5 +1,5 @@
 # Eclipse Launcher
-AutoHotkey based quick launcher for many eclipse installations. Add this to your startup folder, and invoke it via Ctrl-Win-E. Opens a context menu at your current mouse position to launch all installed Eclipse IDEs.
+AutoHotkey based quick launcher for many [Eclipse](https://www.eclipse.org/)  installations. Add this to your startup folder, and invoke it via <kbd>Ctrl</kbd>+<kbd>Win</kbd>+<kbd>E</kbd>. Opens a context menu at your current mouse position to launch all installed Eclipse IDEs.
 
 ![Top level menu](menu.png "Top level menu")
 ![Nested menu](menu_nested.png "Nested menu")
