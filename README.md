@@ -9,7 +9,7 @@ AutoHotkey based quick launcher for many [Eclipse](https://www.eclipse.org/)  in
 * Make sure your machine has [AutoHotkey](https://www.autohotkey.com/) installed.
 * Use Win-R to open the _Run_ menu.
 * Enter `shell:startup`, which will open your personal startup folder.
-* Paste the raw file [`eclipse-launcher.ahk`](https://github.com/Bananeweizen/eclipse-launcher/raw/main/eclipse-launcher.ahk) file into that folder. That way, it will be executed on each Windows start.
+* Paste the raw file [`eclipse-launcher.ahk`](https://github.com/Bananeweizen/eclipse-launcher/raw/main/eclipse-launcher.ahk) into that folder. That way, it will be executed on each Windows start.
 * Edit and configure (at least the root directory variable). See next section for details.
 * To immediately start it now, double-click the `eclipse-launcher.ahk`.
 
