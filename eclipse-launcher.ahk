@@ -50,7 +50,7 @@ Menu, Tray, NoIcon
 
 ; scan for directories with eclipse.exe
 FileList := ""
-Loop, Files, c:\dev\*, D
+Loop, Files, %RootDir%\*, D
 {
 	If IsIgnored(A_LoopFileName)
 	{
