@@ -45,6 +45,9 @@ SetWorkingDir %A_ScriptDir%
 ; Avoid accidentally running this multiple times.
 #SingleInstance Force
 
+; make DPI aware, https://www.autohotkey.com/docs/v1/misc/DPIScaling.htm
+DllCall("SetThreadDpiAwarenessContext", "ptr", -4, "ptr")
+
 ; Disable tray icon
 Menu, Tray, NoIcon
 
@@ -105,6 +108,9 @@ If ShowSubMenu
 ; menu item reload, needed to recognize new installations
 Menu, MyMenu, Add
 Menu, MyMenu, Add, Reload, MenuReload
+Menu, MyMenu, Icon, Reload, refresh.ico
+Menu, MyMenu, Add, Edit, MenuEdit
+Menu, MyMenu, Icon, Edit, edit.ico
 
 ; exit script, wait for hotkey
 return
@@ -136,6 +142,10 @@ return
 
 MenuReload:
 	Reload
+return
+
+MenuEdit:
+	Run, notepad %A_ScriptFullPath%
 return
 
 ; enable hotkey
