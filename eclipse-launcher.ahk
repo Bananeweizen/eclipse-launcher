@@ -108,9 +108,9 @@ If ShowSubMenu
 ; menu item reload, needed to recognize new installations
 Menu, MyMenu, Add
 Menu, MyMenu, Add, Reload, MenuReload
-Menu, MyMenu, Icon, Reload, refresh.ico
+Menu, MyMenu, Icon, Reload, shell32.dll, 239
 Menu, MyMenu, Add, Edit, MenuEdit
-Menu, MyMenu, Icon, Edit, edit.ico
+Menu, MyMenu, Icon, Edit, shell32.dll, 270
 
 ; exit script, wait for hotkey
 return
